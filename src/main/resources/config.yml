@@ -1,0 +1,11 @@
+database:
+  driver: com.mysql.jdbc.Driver
+  dialect: org.hibernate.dialect.MySQLDialect
+  jdbcurl: jdbc:mysql://127.0.0.1:3306/kits
+  username: USERNAME
+  password: "PASSWORD"
+  engine: innodb
+
+analytics:
+  total_free_kits: 0
+  total_paid_kits: 0

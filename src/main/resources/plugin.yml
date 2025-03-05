@@ -1,0 +1,9 @@
+name: UniversalKits
+version: '${project.version}'
+main: ru.xopek.universalkits.UniversalKits
+api-version: '1.16'
+depend: [ PlayerPoints ]
+description: Provides Kits system to Minecraft servers based on 1.16.5 version
+
+commands:
+  ekits: {}

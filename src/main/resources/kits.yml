@@ -1,0 +1,27 @@
+cooldowns:
+  START: 5000 # Milliseconds
+  DONATE: 10000 # Milliseconds
+
+#Item params:
+# type : Material
+# amount : Item Amount
+# title? : Item Title
+# enchants? : Item Enchants ( SEPARATED_TRANSLATED_ENCHANT_NAME | Level )
+# attributes? : Item Attributes ( {AttN | AttMod | AttUse} )
+
+kits:
+  start:
+    name: 'Набор Новичка'
+    type: 'START'
+    permission: '' # Leave as empty if not needed to use any permissions
+    items:
+      0:
+        type: DIAMOND
+        amount: 1
+      1:
+        type: GRASS
+        amount: 1
+        title: "&cEblan Item"
+        enchantments:
+          - "Острота, 5"
+          - "Защита, 3"
